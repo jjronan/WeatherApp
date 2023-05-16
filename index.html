@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-item">
+        <h1 class="title">Weather App</h1>
+      </div>
+
+      <div class="flex-item">
+        <div class="search-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+          <button id="button-search" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+      </div>
+      
+      <div class="flex-item">
+        <h2 class="greeting">Good Morning</h2>
+      </div>
+      
+      <div class="flex-item">
+        <div class="weather-box">
+          <div class="info">
+            <i class="fa-solid fa-temperature-half"></i>
+            <div class="text">
+              <p id="temp">Temp</p>
+            </div>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+              <p id="wind">Wind</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAM9YH_Vfdc_ljDhntmpup3LD1Q4F97quA&callback=initAutocomplete&libraries=places&v=weekly" defer></script>
+    <script src="https://kit.fontawesome.com/7b07da057a.js" crossorigin="anonymous"></script>
+  </body>
+
+</html>
